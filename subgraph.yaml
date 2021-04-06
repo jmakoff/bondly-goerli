@@ -32,10 +32,11 @@ dataSources:
       file: ./src/index.ts
   - kind: ethereum/contract
     name: PolkaPet
-    network: mainnet
+    network: goerli
     source:
       abi: IERC1155
       address: "0xD320856373A76fe1F5529B2a97Cb486F44f3E247"
+      startBlock: 4572400
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -57,11 +58,11 @@ dataSources:
       file: ./src/index.ts
   - kind: ethereum/contract
     name: Logan Paul
-    network: mainnet
+    network: goerli
     source:
       abi: IERC1155
       address: "0x39246c0687DDc1b12F1C86DaBc5D246D83c72D87"
-      startBlock: 11884645 
+      startBlock: 4572400
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
