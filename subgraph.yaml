@@ -9,8 +9,8 @@ dataSources:
     network: goerli
     source:
       abi: IERC1155
-      address: "0xCB334a89e79499b16fAe21f40cD1561fB092245f"
-      startBlock: 4572400
+      address: "0x472f41ca844d37bef98b4f89b47e716652247c7f"
+      startBlock: 4567700
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
